@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6341400653015164095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1566001123726499975, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[0].newPropertyLevel
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[2].newPropertyLevel
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[3].newPropertyLevel
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[4].newPropertyLevel
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[2].requiredItems.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[3].requiredItems.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[4].requiredItems.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[0].requiredItems.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[1].requiredItems.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[2].requiredItems.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[2].requiredItems.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[3].requiredItems.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[3].requiredItems.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[4].requiredItems.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[4].requiredItems.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[0].requiredItems.Array.data[0].amount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[1].requiredItems.Array.data[1].amount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[2].requiredItems.Array.data[0].amount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[2].requiredItems.Array.data[1].amount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[3].requiredItems.Array.data[0].amount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[3].requiredItems.Array.data[1].amount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[4].requiredItems.Array.data[0].amount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721390767908453192, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: planetUpgrade.upgradeLevels.Array.data[4].requiredItems.Array.data[1].amount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058114104011736644, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_Name
+      value: FarmPlanet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750931352180959043, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c0732315150e6494194188e31e14c867, type: 3}
+    - target: {fileID: 7495632446388652641, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_Color.b
+      value: 0.32549024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495632446388652641, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_Color.g
+      value: 0.66633016
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495632446388652641, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5058114104011736644, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -481134367412525103}
+  m_SourcePrefab: {fileID: 100100000, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+--- !u!1 &2176128886048645883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5058114104011736644, guid: c119cbec9cae0044ab77257ddcfb0788, type: 3}
+  m_PrefabInstance: {fileID: 6341400653015164095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-481134367412525103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176128886048645883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a773bd25d8eac04392931612c03b474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnedOre: {fileID: 387771825628949677, guid: 000ac42751174a94e96d4eb28888076a, type: 3}

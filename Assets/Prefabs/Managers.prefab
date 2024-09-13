@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6024715781753095396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3573054718877664502}
+  - component: {fileID: 3651046470900993982}
+  - component: {fileID: 6141269273018142392}
+  - component: {fileID: 6520807214755752402}
+  - component: {fileID: 8120711712251306406}
+  - component: {fileID: 5349028238465314043}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3573054718877664502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024715781753095396}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.047571, y: 9.069823, z: 0.04719446}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3651046470900993982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024715781753095396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d036b53f9203640bc64648d0a35c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: []
+--- !u!114 &6141269273018142392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024715781753095396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9060c30fe6151747acb7049b0446094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageUpgrade:
+    name: Damage
+    currentValue: 1
+    levelIndex: 0
+    upgradeLevels:
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 7
+      newPropertyLevel: 1.5
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 5
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 10
+      newPropertyLevel: 2
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 7
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 5
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 2
+      newPropertyLevel: 3
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 20
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 20
+      newPropertyLevel: 5
+    - requiredItems:
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 8
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 15
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 8
+      newPropertyLevel: 7
+    - requiredItems:
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 20
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 20
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 20
+      newPropertyLevel: 10
+  speedUpgrade:
+    name: Speed
+    currentValue: 10
+    levelIndex: 1
+    upgradeLevels:
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 5
+      newPropertyLevel: 12
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 4
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 2
+      newPropertyLevel: 14
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 8
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 5
+      newPropertyLevel: 16
+    - requiredItems:
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 2
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 8
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 8
+      newPropertyLevel: 18
+  turboDurationUpgrade:
+    name: Turbo
+    currentValue: 0
+    levelIndex: 0
+    upgradeLevels:
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 4
+      newPropertyLevel: 15
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 4
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 3
+      newPropertyLevel: 20
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 5
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 5
+      newPropertyLevel: 25
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 4
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 5
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 3
+      newPropertyLevel: 30
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 4
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 2
+      newPropertyLevel: 40
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 8
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 8
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 8
+      newPropertyLevel: 50
+  fireRateUpgrade:
+    name: Fire Rate
+    currentValue: 2
+    levelIndex: 0
+    upgradeLevels:
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 5
+      newPropertyLevel: 0.08
+    - requiredItems:
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 4
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 4
+      newPropertyLevel: 0.06
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 7
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 7
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 5
+      newPropertyLevel: 0.05
+    - requiredItems:
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 10
+      - item: {fileID: 11400000, guid: ba39dc1052546034bac0364c2df3bbc0, type: 2}
+        amount: 10
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 5
+      newPropertyLevel: 0.01
+  healthUpgrade:
+    name: Max Health
+    currentValue: 0
+    levelIndex: 0
+    upgradeLevels:
+    - requiredItems:
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 8
+      newPropertyLevel: 70
+    - requiredItems:
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 9
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 5
+      newPropertyLevel: 100
+    - requiredItems:
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 10
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 4
+      newPropertyLevel: 130
+    - requiredItems:
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 15
+      - item: {fileID: 11400000, guid: 8a23f5824bb47fe448801d19d5a273df, type: 2}
+        amount: 8
+      newPropertyLevel: 160
+    - requiredItems:
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 20
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 15
+      newPropertyLevel: 200
+    - requiredItems:
+      - item: {fileID: 11400000, guid: c36ed8001082fb54eb26e200ac3d990f, type: 2}
+        amount: 20
+      - item: {fileID: 11400000, guid: 8d1a081bc14dcb7458c79bba547607fe, type: 2}
+        amount: 15
+      - item: {fileID: 11400000, guid: f7567e1676a63ed4e889bf8205c4d516, type: 2}
+        amount: 15
+      newPropertyLevel: 250
+--- !u!114 &6520807214755752402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024715781753095396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e16f37905f79d4eb24de6c99537df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smallAsteroid: {fileID: 3655178180198685966, guid: 7ad8aa605a02cd6438fea5a9e6a72bb1, type: 3}
+  mediumAstroid: {fileID: 1500084463025057276, guid: 7e33cfa7c220f8b40b9adbd34596d20e, type: 3}
+  bigAsteroid: {fileID: 363519891308796928, guid: 29152d38031090d4cb033ff7923733cb, type: 3}
+  DropableOres:
+  - {fileID: 1472738428850262371, guid: 47c5c1e57b40ecc46aad161bba93ace9, type: 3}
+  - {fileID: 387771825628949677, guid: 000ac42751174a94e96d4eb28888076a, type: 3}
+  - {fileID: 1074367718425379684, guid: b00bb5770818c2d46bc981286701b5a9, type: 3}
+  - {fileID: 6951441659592286621, guid: fd614ccc8e3b15b4ca14547d55dc8c65, type: 3}
+  - {fileID: 6532366104096952818, guid: 2738a00072336ad45870b4c060175dad, type: 3}
+  maxAsteroidCounter: 12
+  SpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &8120711712251306406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024715781753095396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73dc2d072663c145af632ba0213989f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  waves:
+  - maxEnemyCount: 100
+    killAmountToWin: 50
+    duration: 120
+    timeBetweenRounds: 8
+    enemies:
+    - minSpawnCount: 10
+      maxSpawnCount: 20
+      enemyPrefab: {fileID: 1226700579806383210, guid: 3827ecff4312c70499a39abde22979d1, type: 3}
+  - maxEnemyCount: 200
+    killAmountToWin: 80
+    duration: 150
+    timeBetweenRounds: 10
+    enemies:
+    - minSpawnCount: 15
+      maxSpawnCount: 40
+      enemyPrefab: {fileID: 1226700579806383210, guid: 3827ecff4312c70499a39abde22979d1, type: 3}
+    - minSpawnCount: 15
+      maxSpawnCount: 30
+      enemyPrefab: {fileID: 88163603333949570, guid: a80a4d014f1c0174c9e858099741cb98, type: 3}
+  - maxEnemyCount: 300
+    killAmountToWin: 100
+    duration: 200
+    timeBetweenRounds: 8
+    enemies:
+    - minSpawnCount: 50
+      maxSpawnCount: 80
+      enemyPrefab: {fileID: 1226700579806383210, guid: 3827ecff4312c70499a39abde22979d1, type: 3}
+    - minSpawnCount: 70
+      maxSpawnCount: 150
+      enemyPrefab: {fileID: 88163603333949570, guid: a80a4d014f1c0174c9e858099741cb98, type: 3}
+    - minSpawnCount: 40
+      maxSpawnCount: 60
+      enemyPrefab: {fileID: 871057447627984057, guid: 53bc9250e21ce09408b2a2032b7cc082, type: 3}
+  - maxEnemyCount: 400
+    killAmountToWin: 120
+    duration: 200
+    timeBetweenRounds: 10
+    enemies:
+    - minSpawnCount: 60
+      maxSpawnCount: 80
+      enemyPrefab: {fileID: 1226700579806383210, guid: 3827ecff4312c70499a39abde22979d1, type: 3}
+    - minSpawnCount: 60
+      maxSpawnCount: 120
+      enemyPrefab: {fileID: 88163603333949570, guid: a80a4d014f1c0174c9e858099741cb98, type: 3}
+    - minSpawnCount: 40
+      maxSpawnCount: 70
+      enemyPrefab: {fileID: 871057447627984057, guid: 53bc9250e21ce09408b2a2032b7cc082, type: 3}
+    - minSpawnCount: 10
+      maxSpawnCount: 20
+      enemyPrefab: {fileID: 505298370286647225, guid: 93a5d327add57ad438deae672c035ec6, type: 3}
+  - maxEnemyCount: 500
+    killAmountToWin: 200
+    duration: 200
+    timeBetweenRounds: 8
+    enemies:
+    - minSpawnCount: 50
+      maxSpawnCount: 75
+      enemyPrefab: {fileID: 1226700579806383210, guid: 3827ecff4312c70499a39abde22979d1, type: 3}
+    - minSpawnCount: 70
+      maxSpawnCount: 90
+      enemyPrefab: {fileID: 88163603333949570, guid: a80a4d014f1c0174c9e858099741cb98, type: 3}
+    - minSpawnCount: 50
+      maxSpawnCount: 100
+      enemyPrefab: {fileID: 871057447627984057, guid: 53bc9250e21ce09408b2a2032b7cc082, type: 3}
+    - minSpawnCount: 30
+      maxSpawnCount: 50
+      enemyPrefab: {fileID: 505298370286647225, guid: 93a5d327add57ad438deae672c035ec6, type: 3}
+  currentWaveIndex: 0
+  currentSpawnedEnemies: 0
+  currentKilledEnemies: 0
+  isWaveActive: 0
+  WaveStatusBar: {fileID: 0}
+--- !u!114 &5349028238465314043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024715781753095396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96483c014b27944a83398127eb4c220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turns:
+  - state: 1
+    duration: 30
+  - state: 0
+    duration: 0
+  - state: 1
+    duration: 60
+  - state: 0
+    duration: 0
+  - state: 1
+    duration: 60
+  - state: 0
+    duration: 0
+  - state: 1
+    duration: 60
+  - state: 0
+    duration: 0
+  - state: 1
+    duration: 60
+  - state: 0
+    duration: 0
+  currentTurnIndex: 0
+  currentTurnDuration: 0
